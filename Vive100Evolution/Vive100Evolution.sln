@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vive100Evolution", "Vive100Evolution\Vive100Evolution.csproj", "{962AC0D9-3377-4D3C-A62F-7E85A8165057}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{74C2E662-A765-4786-87EB-DB8FEC419730}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{962AC0D9-3377-4D3C-A62F-7E85A8165057}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{962AC0D9-3377-4D3C-A62F-7E85A8165057}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{962AC0D9-3377-4D3C-A62F-7E85A8165057}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{962AC0D9-3377-4D3C-A62F-7E85A8165057}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74C2E662-A765-4786-87EB-DB8FEC419730}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74C2E662-A765-4786-87EB-DB8FEC419730}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74C2E662-A765-4786-87EB-DB8FEC419730}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74C2E662-A765-4786-87EB-DB8FEC419730}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B406A9CC-56A3-4EED-AE64-A04A9B211AE2}
+	EndGlobalSection
+EndGlobal
