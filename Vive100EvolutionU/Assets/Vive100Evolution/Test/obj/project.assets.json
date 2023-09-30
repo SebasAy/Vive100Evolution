@@ -1008,11 +1008,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sebit\\Documents\\GitHub\\Vive100Evolution\\Vive100Evolution\\Test\\Test.csproj",
+      "projectUniqueName": "C:\\Users\\sebit\\Documents\\GitHub\\Vive100Evolution\\Vive100EvolutionU\\Assets\\Vive100Evolution\\Test\\Test.csproj",
       "projectName": "Test",
-      "projectPath": "C:\\Users\\sebit\\Documents\\GitHub\\Vive100Evolution\\Vive100Evolution\\Test\\Test.csproj",
+      "projectPath": "C:\\Users\\sebit\\Documents\\GitHub\\Vive100Evolution\\Vive100EvolutionU\\Assets\\Vive100Evolution\\Test\\Test.csproj",
       "packagesPath": "C:\\Users\\sebit\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sebit\\Documents\\GitHub\\Vive100Evolution\\Vive100Evolution\\Test\\obj\\",
+      "outputPath": "C:\\Users\\sebit\\Documents\\GitHub\\Vive100Evolution\\Vive100EvolutionU\\Assets\\Vive100Evolution\\Test\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\sebit\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1029,8 +1029,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\sebit\\Documents\\GitHub\\Vive100Evolution\\Vive100Evolution\\Vive100Evolution\\Vive100Evolution.csproj": {
-              "projectPath": "C:\\Users\\sebit\\Documents\\GitHub\\Vive100Evolution\\Vive100Evolution\\Vive100Evolution\\Vive100Evolution.csproj"
+            "C:\\Users\\sebit\\Documents\\GitHub\\Vive100Evolution\\Vive100EvolutionU\\Assets\\Vive100Evolution\\Vive100Evolution\\Vive100Evolution.csproj": {
+              "projectPath": "C:\\Users\\sebit\\Documents\\GitHub\\Vive100Evolution\\Vive100EvolutionU\\Assets\\Vive100Evolution\\Vive100Evolution\\Vive100Evolution.csproj"
             }
           }
         }

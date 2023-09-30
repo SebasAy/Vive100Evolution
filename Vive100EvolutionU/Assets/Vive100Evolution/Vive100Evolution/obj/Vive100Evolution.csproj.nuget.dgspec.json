@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sebit\\Documents\\GitHub\\Vive100Evolution\\Vive100Evolution\\Vive100Evolution\\Vive100Evolution.csproj": {}
+    "C:\\Users\\sebit\\Documents\\GitHub\\Vive100Evolution\\Vive100EvolutionU\\Assets\\Vive100Evolution\\Vive100Evolution\\Vive100Evolution.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sebit\\Documents\\GitHub\\Vive100Evolution\\Vive100Evolution\\Vive100Evolution\\Vive100Evolution.csproj": {
+    "C:\\Users\\sebit\\Documents\\GitHub\\Vive100Evolution\\Vive100EvolutionU\\Assets\\Vive100Evolution\\Vive100Evolution\\Vive100Evolution.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sebit\\Documents\\GitHub\\Vive100Evolution\\Vive100Evolution\\Vive100Evolution\\Vive100Evolution.csproj",
+        "projectUniqueName": "C:\\Users\\sebit\\Documents\\GitHub\\Vive100Evolution\\Vive100EvolutionU\\Assets\\Vive100Evolution\\Vive100Evolution\\Vive100Evolution.csproj",
         "projectName": "Vive100Evolution",
-        "projectPath": "C:\\Users\\sebit\\Documents\\GitHub\\Vive100Evolution\\Vive100Evolution\\Vive100Evolution\\Vive100Evolution.csproj",
+        "projectPath": "C:\\Users\\sebit\\Documents\\GitHub\\Vive100Evolution\\Vive100EvolutionU\\Assets\\Vive100Evolution\\Vive100Evolution\\Vive100Evolution.csproj",
         "packagesPath": "C:\\Users\\sebit\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sebit\\Documents\\GitHub\\Vive100Evolution\\Vive100Evolution\\Vive100Evolution\\obj\\",
+        "outputPath": "C:\\Users\\sebit\\Documents\\GitHub\\Vive100Evolution\\Vive100EvolutionU\\Assets\\Vive100Evolution\\Vive100Evolution\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sebit\\AppData\\Roaming\\NuGet\\NuGet.Config",
