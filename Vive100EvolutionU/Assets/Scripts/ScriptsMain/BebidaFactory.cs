@@ -11,7 +11,6 @@ public class BebidaFactory : MonoBehaviour, Unity.VisualScripting.ISingleton
     }
 
     public GameObject prefabBebida;
-    public int contadorBebidas = 0;
     public float intervaloBebidas = 5f;
 
     public List<GameObject> bebidasCreadas = new List<GameObject>();
@@ -35,7 +34,6 @@ public class BebidaFactory : MonoBehaviour, Unity.VisualScripting.ISingleton
         float x = Random.Range(0f, Screen.width);
         float y = Random.Range(0f, Screen.height);
         randomPosition = new Vector3(x, y, 0f);
-        randomPosition = Camera.main.WorldToViewportPoint(randomPosition);
 
         Create(randomPosition);
     }
@@ -51,9 +49,8 @@ public class BebidaFactory : MonoBehaviour, Unity.VisualScripting.ISingleton
         {
 
             yield return new WaitForSeconds(intervaloBebidas);
-            if (contadorBebidas < 20)
+            if (bebidasCreadas.Count < 20)
             {
-                // Creamos una bebida
                 CreateRandom();
             }
         }
