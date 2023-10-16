@@ -184,6 +184,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89367db16b840624eba3b351341ef72c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MergedObject: {fileID: 373548249000097609, guid: a0a46e6eaa2bd54468b71cfcdc7806a7, type: 3}
-  Distance: 0.1
-  MergeSpeed: 0.2
+  prefabFusionada: {fileID: 373548249000097609, guid: a0a46e6eaa2bd54468b71cfcdc7806a7, type: 3}

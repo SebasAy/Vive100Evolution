@@ -12,6 +12,7 @@ public class BebidaFactory : MonoBehaviour, Unity.VisualScripting.ISingleton
 
     public GameObject prefabBebida;
     public float intervaloBebidas = 5f;
+    public MergeBebida mergeBebida;
 
     public List<GameObject> bebidasCreadas = new List<GameObject>();
 
@@ -52,6 +53,22 @@ public class BebidaFactory : MonoBehaviour, Unity.VisualScripting.ISingleton
             if (bebidasCreadas.Count < 20)
             {
                 CreateRandom();
+            }
+        }
+    }
+
+    public void CheckAndMergeBebidas()
+    {
+        for (int i = 0; i < bebidasCreadas.Count; i++)
+        {
+            for (int j = i + 1; j < bebidasCreadas.Count; j++)
+            {
+                if (mergeBebida.CanMerge(bebidasCreadas[i], bebidasCreadas[j]))
+                {
+                    mergeBebida.MergeBebidas(bebidasCreadas[i], bebidasCreadas[j]);
+                    bebidasCreadas.Remove(bebidasCreadas[i]);
+                    bebidasCreadas.Remove(bebidasCreadas[j]);
+                }
             }
         }
     }

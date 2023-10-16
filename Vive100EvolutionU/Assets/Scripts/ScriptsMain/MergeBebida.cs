@@ -5,29 +5,24 @@ using static Unity.Collections.AllocatorManager;
 
 public class MergeBebida : MonoBehaviour
 {
-    int ID;
-    public GameObject MergedObject;
-    public float Distance;
-    public float MergeSpeed;
-
-    void Start()
+    public GameObject prefabFusionada;
+    public bool CanMerge(GameObject bebida1, GameObject bebida2)
     {
-        ID = GetInstanceID();
-    }
-
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.CompareTag("Bebidas") && collision.gameObject.GetComponent<SpriteRenderer>().material == GetComponent<SpriteRenderer>().material)
+        if (bebida1.CompareTag("Bebidas") && bebida2.CompareTag("Bebidas"))
         {
-            if (ID < collision.gameObject.GetComponent<MergeBebida>().ID) { return; }
-            Destroy(collision.gameObject);
-            Destroy(gameObject);
-
-            Vector3 mergedPosition = (transform.position + collision.gameObject.transform.position) / 2;
-            GameObject merged = Instantiate(MergedObject, mergedPosition, Quaternion.identity);
-
-            merged.GetComponent<Rigidbody2D>().velocity = MergeSpeed * (mergedPosition - transform.position);
+            float distancia = Vector3.Distance(bebida1.transform.position, bebida2.transform.position);
+            // Establece una distancia límite para la fusión (ajusta esto según tus necesidades).
+            float distanciaLimite = 2.0f;
+            return distancia <= distanciaLimite;
         }
+        return false;
+    }
+    public void MergeBebidas(GameObject bebida1, GameObject bebida2)
+    {
+        Destroy(bebida1);
+        Destroy(bebida2);
+
+        Instantiate(prefabFusionada, (bebida1.transform.position + bebida2.transform.position) / 2, Quaternion.identity);
     }
 }
 
