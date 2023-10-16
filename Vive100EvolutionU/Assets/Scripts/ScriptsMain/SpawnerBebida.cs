@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class SpawnerBebida : MonoBehaviour
 {
-    // Start is called before the first frame update
+
+    public float spawnInterval = 5.0f;
     void Start()
     {
         
     }
 
-    // Update is called once per frame
     void Update()
     {
         
