@@ -419,7 +419,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefabBebida: {fileID: 5192970752076035008, guid: e1d3f8c08c5f30344ba458977ab56de1, type: 3}
-  intervaloBebidas: 5
+  intervaloBebidas: 1
+  mergeBebida: {fileID: 4545152002918734978, guid: e1d3f8c08c5f30344ba458977ab56de1, type: 3}
   bebidasCreadas: []
 --- !u!4 &666864667
 Transform:
@@ -631,7 +632,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 200
+  orthographic size: 223.08546
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -656,7 +657,7 @@ Transform:
   m_GameObject: {fileID: 822359024}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 571, y: 200, z: -10}
+  m_LocalPosition: {x: 407, y: 221, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []

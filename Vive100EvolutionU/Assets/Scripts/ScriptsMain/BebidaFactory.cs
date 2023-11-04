@@ -72,4 +72,8 @@ public class BebidaFactory : MonoBehaviour, Unity.VisualScripting.ISingleton
             }
         }
     }
+    void Update()
+    {
+        CheckAndMergeBebidas();
+    }
 }
