@@ -34,8 +34,8 @@ public class BebidaFactory : MonoBehaviour, Unity.VisualScripting.ISingleton
     public void CreateRandom()
     {
         Vector3 randomPosition = Vector3.zero;
-        float x = Random.Range(0f, Screen.width);
-        float y = Random.Range(0f, Screen.height);
+        float x = Random.Range(0f, Screen.width-1);
+        float y = Random.Range(0f, Screen.height-1);
         randomPosition = new Vector3(x, y, 0f);
 
         Create(randomPosition);
