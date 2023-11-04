@@ -43,15 +43,7 @@ public class Jugador
 
     public void GanarMonedasPorNivelBebida(int nivel)
     {
-        // Lógica para ganar monedas cuando una bebida alcanza un nivel específico
         int ganancia = nivel * MultiplicadorDinero;
         Monedas += ganancia;
-    }
-
-    public void GenerarBebida()
-    {
-        // Lógica para generar una nueva bebida en el inventario
-        Bebida nuevaBebida = new Bebida(1); // Nueva bebida de nivel 1
-        InventarioBebidas.Add(nuevaBebida);
     }
 }

@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 5887353303762879424}
   - component: {fileID: 4473139103451218870}
   - component: {fileID: -4926486631394397017}
+  - component: {fileID: -4594160911497883719}
   m_Layer: 0
   m_Name: Vive100_Goo
   m_TagString: Bebida6
@@ -171,3 +172,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b470b72724fd59545be18bba1a8b9979, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &-4594160911497883719
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5336897408780475953}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7576fcded3d0cb4d9599283e9f5696f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Valor: 6

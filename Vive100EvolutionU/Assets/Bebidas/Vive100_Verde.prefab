@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6703479745179810775}
   - component: {fileID: -8514659189193182090}
   - component: {fileID: 8717343773030835359}
+  - component: {fileID: -1523379712835371304}
   m_Layer: 0
   m_Name: Vive100_Verde
   m_TagString: Bebida1
@@ -171,3 +172,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b470b72724fd59545be18bba1a8b9979, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &-1523379712835371304
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5192970752076035008}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b70bb912596d9474e93fd78ae2b95e75, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Valor: 1
