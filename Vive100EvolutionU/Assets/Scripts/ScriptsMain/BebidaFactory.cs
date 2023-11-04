@@ -59,6 +59,8 @@ public class BebidaFactory : MonoBehaviour, Unity.VisualScripting.ISingleton
 
     public void CheckAndMergeBebidas()
     {
+        List<GameObject> bebidasParaEliminar = new List<GameObject>();
+
         for (int i = 0; i < bebidasCreadas.Count; i++)
         {
             for (int j = i + 1; j < bebidasCreadas.Count; j++)
@@ -66,12 +68,26 @@ public class BebidaFactory : MonoBehaviour, Unity.VisualScripting.ISingleton
                 if (mergeBebida.CanMerge(bebidasCreadas[i], bebidasCreadas[j]))
                 {
                     mergeBebida.MergeBebidas(bebidasCreadas[i], bebidasCreadas[j]);
-                    bebidasCreadas.Remove(bebidasCreadas[i]);
-                    bebidasCreadas.Remove(bebidasCreadas[j]);
+                    bebidasParaEliminar.Add(bebidasCreadas[i]);
+                    bebidasParaEliminar.Add(bebidasCreadas[j]);
                 }
             }
         }
+
+        // Elimina las bebidas fusionadas de la lista
+        foreach (var bebida in bebidasParaEliminar)
+        {
+            bebidasCreadas.Remove(bebida);
+            Destroy(bebida);
+        }
+        if (mergeBebida.nuevaBebidaFusionada != null)
+        {
+            bebidasCreadas.Add(mergeBebida.nuevaBebidaFusionada);
+            mergeBebida.nuevaBebidaFusionada = null;
+        }
+
     }
+
     void Update()
     {
         CheckAndMergeBebidas();

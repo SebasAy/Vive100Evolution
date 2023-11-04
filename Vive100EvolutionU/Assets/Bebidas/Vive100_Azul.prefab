@@ -12,11 +12,10 @@ GameObject:
   - component: {fileID: 1352801524372685887}
   - component: {fileID: 7539408215814269025}
   - component: {fileID: 743023765589629927}
-  - component: {fileID: -6653011614122583609}
   - component: {fileID: 1714053778853175815}
   m_Layer: 0
   m_Name: Vive100_Azul
-  m_TagString: Bebidas
+  m_TagString: Bebida2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -160,19 +159,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &-6653011614122583609
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 373548249000097609}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 89367db16b840624eba3b351341ef72c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  prefabFusionada: {fileID: 5336897408780475953, guid: 9f319b0765177b9449c40417a25395f6, type: 3}
 --- !u!114 &1714053778853175815
 MonoBehaviour:
   m_ObjectHideFlags: 0

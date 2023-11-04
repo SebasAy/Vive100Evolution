@@ -558,6 +558,58 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: -20, y: -20}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &244083501
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 244083503}
+  - component: {fileID: 244083502}
+  m_Layer: 0
+  m_Name: MergeBebidas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &244083502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 244083501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89367db16b840624eba3b351341ef72c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefab2: {fileID: 373548249000097609, guid: a0a46e6eaa2bd54468b71cfcdc7806a7, type: 3}
+  prefab3: {fileID: 5336897408780475953, guid: 9f319b0765177b9449c40417a25395f6, type: 3}
+  prefab4: {fileID: 0}
+  prefab5: {fileID: 0}
+  prefab6: {fileID: 0}
+  prefab7: {fileID: 0}
+  prefab8: {fileID: 0}
+  nuevaBebidaFusionada: {fileID: 0}
+--- !u!4 &244083503
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 244083501}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 500.76157, y: 285.79068, z: -0.25982937}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &659719510
 GameObject:
   m_ObjectHideFlags: 0
@@ -722,7 +774,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   prefabBebida: {fileID: 5192970752076035008, guid: e1d3f8c08c5f30344ba458977ab56de1, type: 3}
   intervaloBebidas: 1
-  mergeBebida: {fileID: 4545152002918734978, guid: e1d3f8c08c5f30344ba458977ab56de1, type: 3}
+  mergeBebida: {fileID: 244083502}
   bebidasCreadas: []
 --- !u!4 &666864667
 Transform:
@@ -2759,12 +2811,12 @@ GameObject:
   - component: {fileID: 2132494639}
   - component: {fileID: 2132494638}
   m_Layer: 0
-  m_Name: d0a82eb6ced6771cffce16d9f936055b
+  m_Name: Fondo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!212 &2132494638
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2841,3 +2893,4 @@ SceneRoots:
   - {fileID: 899227950}
   - {fileID: 1966849324}
   - {fileID: 2132494639}
+  - {fileID: 244083503}

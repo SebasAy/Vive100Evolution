@@ -4,7 +4,14 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Bebidas
+  - Bebida1
+  - Bebida2
+  - Bebida3
+  - Bebida4
+  - Bebida5
+  - Bebida6
+  - Bebida7
+  - Bebida8
   layers:
   - Default
   - TransparentFX
