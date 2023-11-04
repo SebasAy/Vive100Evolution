@@ -23,7 +23,7 @@ public class Jugador: MonoBehaviour
         if (Monedas >= 50)
         {
             bebida.Multiplicador++;
-            Monedas = Monedas - 50; 
+            Monedas = Monedas - 50;
         }
     }
 }
