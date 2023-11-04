@@ -106,6 +106,15 @@ public class BebidaFactory : MonoBehaviour, Unity.VisualScripting.ISingleton
         jugador.Monedas += valorTotal;
     }
 
+    public void CambioIntervalo()
+    {
+        if (jugador.Monedas >= 100)
+        {
+            intervaloBebidas = 2.5f;
+            jugador.Monedas = jugador.Monedas - 100;
+        }
+    }
+
     void Update()
     {
         CheckAndMergeBebidas();

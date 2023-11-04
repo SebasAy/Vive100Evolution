@@ -8,6 +8,7 @@ public class Jugador: MonoBehaviour
 {
     public UiManager uiManager;
     public int Monedas;
+    public Bebida bebida;
 
     public Jugador()
     {
@@ -15,7 +16,14 @@ public class Jugador: MonoBehaviour
     }
     private void Update()
     {
-
         uiManager.ActualizarTextoMonedas(Monedas);
+    }
+    public void CambioMultiplicador()
+    {
+        if (Monedas >= 50)
+        {
+            bebida.Multiplicador++;
+            Monedas = Monedas - 50; 
+        }
     }
 }

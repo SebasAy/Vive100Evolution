@@ -4,6 +4,7 @@ using UnityEngine;
 public class Bebida:MonoBehaviour
 {
     public int ValorMoneda { get; private set; }
+    public int Multiplicador;
     public int Valor;
 
     public Bebida()
@@ -13,7 +14,8 @@ public class Bebida:MonoBehaviour
 
     public virtual int CalcularValorMoneda()
     {
-        Valor = 1;
+        Multiplicador = 1;
+        Valor = 1 * Multiplicador;
         return Valor;
     }
 }
