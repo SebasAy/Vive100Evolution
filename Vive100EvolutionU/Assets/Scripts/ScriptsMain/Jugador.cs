@@ -12,6 +12,10 @@ public class Jugador: MonoBehaviour
     public Jugador()
     {
         Monedas = 0;
+    }
+    private void Update()
+    {
+
         uiManager.ActualizarTextoMonedas(Monedas);
     }
 }

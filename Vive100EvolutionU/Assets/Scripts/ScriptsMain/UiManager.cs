@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class UiManager : MonoBehaviour
 {
-    public TextMeshPro monedasText;
+    public TextMeshProUGUI monedasText;
 
     public void ActualizarTextoMonedas(int cantidadMonedas)
     {
