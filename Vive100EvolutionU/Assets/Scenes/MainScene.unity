@@ -772,6 +772,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd8fb3a5a4c168849b48e3820ee7aa9f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  jugador: {fileID: 1411422110}
   prefabBebida: {fileID: 5192970752076035008, guid: e1d3f8c08c5f30344ba458977ab56de1, type: 3}
   intervaloBebidas: 5
   mergeBebida: {fileID: 244083502}
@@ -1858,6 +1859,52 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1359978894}
   m_CullTransparentMesh: 1
+--- !u!1 &1411422109
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1411422111}
+  - component: {fileID: 1411422110}
+  m_Layer: 0
+  m_Name: Jugador
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1411422110
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1411422109}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 823935f848d895c428fe7ca88758f77e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uiManager: {fileID: 0}
+  Monedas: 0
+--- !u!4 &1411422111
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1411422109}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 175.27415, y: 200.93643, z: 17.285692}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1454936449
 GameObject:
   m_ObjectHideFlags: 0
@@ -2894,3 +2941,4 @@ SceneRoots:
   - {fileID: 1966849324}
   - {fileID: 2132494639}
   - {fileID: 244083503}
+  - {fileID: 1411422111}

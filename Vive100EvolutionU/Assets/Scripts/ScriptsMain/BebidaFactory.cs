@@ -9,6 +9,7 @@ public class BebidaFactory : MonoBehaviour, Unity.VisualScripting.ISingleton
     {
         get { return Singleton<BebidaFactory>.instance; }
     }
+    public Jugador jugador;
 
     public GameObject prefabBebida;
     public float intervaloBebidas = 1f;
@@ -19,6 +20,7 @@ public class BebidaFactory : MonoBehaviour, Unity.VisualScripting.ISingleton
     void Start()
     {
         StartCoroutine(CreateBebidas());
+        InvokeRepeating("CalcularYGuardarMonedasEnJugador", 1f, 1f);
     }
 
     public void Create(Vector3 position)
@@ -86,6 +88,22 @@ public class BebidaFactory : MonoBehaviour, Unity.VisualScripting.ISingleton
             mergeBebida.nuevaBebidaFusionada = null;
         }
 
+    }
+
+    public void CalcularYGuardarMonedasEnJugador()
+    {
+        int valorTotal = 0;
+
+        foreach (GameObject bebida in bebidasCreadas)
+        {
+            Bebida bebidaComponent = bebida.GetComponent<Bebida>();
+            if (bebidaComponent != null)
+            {
+                valorTotal += bebidaComponent.ValorMoneda;
+            }
+        }
+
+        jugador.Monedas += valorTotal;
     }
 
     void Update()
