@@ -19,7 +19,7 @@ public class MergeBebida : MonoBehaviour
         {
             float distancia = Vector3.Distance(bebida1.transform.position, bebida2.transform.position);
             // Establece una distancia límite para la fusión (ajusta esto según tus necesidades).
-            float distanciaLimite = 2.0f;
+            float distanciaLimite = 10.0f;
             return distancia <= distanciaLimite;
         }
         return false;
