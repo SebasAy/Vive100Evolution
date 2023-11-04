@@ -11,7 +11,7 @@ public class BebidaFactory : MonoBehaviour, Unity.VisualScripting.ISingleton
     }
 
     public GameObject prefabBebida;
-    public float intervaloBebidas = 5f;
+    public float intervaloBebidas = 1f;
     public MergeBebida mergeBebida;
 
     public List<GameObject> bebidasCreadas = new List<GameObject>();

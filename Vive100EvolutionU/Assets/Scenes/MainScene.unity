@@ -589,11 +589,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   prefab2: {fileID: 373548249000097609, guid: a0a46e6eaa2bd54468b71cfcdc7806a7, type: 3}
   prefab3: {fileID: 5336897408780475953, guid: 9f319b0765177b9449c40417a25395f6, type: 3}
-  prefab4: {fileID: 0}
-  prefab5: {fileID: 0}
-  prefab6: {fileID: 0}
-  prefab7: {fileID: 0}
-  prefab8: {fileID: 0}
+  prefab4: {fileID: 5336897408780475953, guid: b399da5d2f8e31a448174f0e36aaf8f8, type: 3}
+  prefab5: {fileID: 5336897408780475953, guid: 534545cf4efe6e8468d8a6c3b46bc6d7, type: 3}
+  prefab6: {fileID: 5336897408780475953, guid: fb35af02d9874924d814afdab6c4bf03, type: 3}
+  prefab7: {fileID: 5336897408780475953, guid: 16c7baf3fb8bfab40a6428060057fe68, type: 3}
+  prefab8: {fileID: 5336897408780475953, guid: b06ebe071b28b234c86938b2ca7817c2, type: 3}
   nuevaBebidaFusionada: {fileID: 0}
 --- !u!4 &244083503
 Transform:
@@ -773,7 +773,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefabBebida: {fileID: 5192970752076035008, guid: e1d3f8c08c5f30344ba458977ab56de1, type: 3}
-  intervaloBebidas: 1
+  intervaloBebidas: 5
   mergeBebida: {fileID: 244083502}
   bebidasCreadas: []
 --- !u!4 &666864667
@@ -2878,8 +2878,8 @@ Transform:
   m_GameObject: {fileID: 2132494637}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 401, y: 242, z: 0}
-  m_LocalScale: {x: 200, y: 200, z: 200}
+  m_LocalPosition: {x: 407, y: 221, z: 0}
+  m_LocalScale: {x: 157.87833, y: 157.87833, z: 157.87833}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
